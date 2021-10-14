@@ -1,0 +1,257 @@
+{
+    "Run Name": "CL_Wild_Type_Nh4_0.1",
+    "Run Storage": "CL_Wild_Type_Nh4_0.1_dir",
+    "Export Flux Data": 1,
+    "Export Reaction Exclusion List": [
+        "*product_reaction",
+        "ATPM_NGAM"
+    ],
+    "#Export Reaction Exclusion List": [
+        "*_chunk_export"
+    ],
+    "#Tracked Exchange Reactions": [
+        "EX_photonVis_e",
+        "EX_o2_e",
+        "EX_co2_e",
+        "EX_ac_e",
+        "EX_lac_D_e"
+    ],
+    "Tracked Exchange Reactions": [
+        "EX_o2_e",
+        "EX_co2_e",
+        "EX_ac_e",
+        "EX_lac_D_e",
+        "EX_etoh_e",
+        "EX_co_e",
+        "ac_c_chunk_export",
+        "gly_c_chunk_export",
+        "ppa_c_chunk_export"
+    ],
+    "No_Show": 1,
+    "Plot C/N": 0,
+    "Plot Macro": 1,
+    "#Plot Macro is required for Error and Setpoints": 0,
+    "Plot Error": 0,
+    "Plot Setpoints": 0,
+    "Plot Limits": 0,
+    "Plot Transcripts": 0,
+    "cutoff_value": 0.0001,
+    "Light Regiment": {
+        "Day": 24,
+        "Light_Start": 0,
+        "Light_End": 36,
+        "Day_Level": 40
+    },
+		"Use Transcript Boolean": 1,
+    "Transcript Run Boolean": 0,
+    "Transcript Source": "Full_Dataset_Fit.json",
+    "Starting Time": 0,
+    "Ending Time": 168,
+    "Time Interval": 0.1,
+    "Max Degradation Rate": 0.5,
+    "NGAM": 1.42,
+    "#NGAM": "Default is 2.85",
+    "Growth ATP": 92.4,
+    "#Growth ATP": "Default is 92.4 mmolatp/gDW",
+    "Debug": 0,
+    "#Note: Max flux is set by setting the max uptake rate of photons to the max daylight amount or the amount required to make NGAM at light onset, whichever is larger": "This is just a comment but JSON is a limited form",
+    "Max_flux": 200,
+    "#Chunk Feasibility File": "new_Cre03_g188250.json",
+    "Chunk Feasibility File": "Wild_Type_feas.json",
+    "Base Chunk Feasibility File": "base_feas.json",
+    "Feasibility Save Interval": 0.6,
+    "#Knockout Gene List": [
+        "Cre03.g188250"
+    ],
+    "Knockout Gene List": [],
+    "Chunked Model": "Chunked_Model_export.xml",
+    "FVA": 0,
+    "Media": {
+        "EX_co2_e": 20,
+        "EX_fe2_e": 1,
+        "EX_h2o_e": 200,
+        "EX_h_e": 200,
+        "EX_mg2_e": 1,
+        "EX_na1_e": 0.1,
+        "EX_nh4_e": 0.1,
+        "EX_o2_e": 20,
+        "EX_pi_e": 200,
+        "EX_so4_e": 1,
+        "EX_succ_e": 1e-05,
+        "EX_etoh_e": 1e-05,
+        "EX_lac_D_e": 1e-05,
+        "#EX_ac_e": 2
+    },
+    "Chunk Identification Information": {
+        "CH_Carotenoid": "Carotenoid",
+        "CH_Chla": "Chlorophyll A",
+        "CH_Chlb": "Chlorophyll B",
+        "CH_Protein": "Protein",
+        "CH_Lipid": "Lipid",
+        "CH_LipidDroplet": "Lipid Droplet",
+        "CH_Carbohydrate": "Carbohydrate",
+        "CH_Nucleotide": "Nucleotide",
+        "CH_Redox": "Redox",
+        "CH_Starch": "Starch"
+    },
+    "Chunk Goal Information": {
+        "CH_Carotenoid": 0.002945713394103,
+        "CH_Chla": 0.00900963952126,
+        "CH_Chlb": 0.015015888012173,
+        "CH_Protein": 0.47164360391624477,
+        "CH_Lipid": 0.08408469348,
+        "CH_LipidDroplet": 0.037519296,
+        "CH_Carbohydrate": 0.13440396538779223,
+        "CH_Nucleotide": 0.09135855607558276,
+        "CH_Redox": 0.001737625882307,
+        "CH_Starch": 0.4577031086059565
+    },
+    "#Chunk Goal Information": {
+        "CH_Carotenoid": 0.026971240927537114,
+        "CH_Energy": 0.0018164915999950607,
+        "CH_Protein": 0.47164360391624477,
+        "CH_Lipid": 0.1216855187866088,
+        "CH_Carbohydrate": 0.13440396538779223,
+        "CH_Nucleotide": 0.09135855607558276,
+        "CH_Redox": 0.001737625882307,
+        "CH_Starch": 0.4577031086059565
+    },
+    "Chunk Starting Information": {
+        "CH_Carotenoid": 0.04616068581037311,
+        "CH_Chla": 0.06190350367370263,
+        "CH_Chlb": 0.04193589338628634,
+        "CH_Protein": 0.3046274169341462,
+        "CH_Lipid": 0.07340400725730294,
+        "CH_LipidDroplet": 0.05882221140798974,
+        "CH_Carbohydrate": 0.058130093033234825,
+        "CH_Nucleotide": 0.04230478098962575,
+        "CH_Redox": 0.011977117614546567,
+        "CH_Starch": 0.3007342898927919
+    },
+    "Chunk Starting Integral": {
+        "CH_Carotenoid": 0,
+        "CH_Chla": 0,
+        "CH_Chlb": 0,
+        "CH_Protein": 0,
+        "CH_Lipid": 0,
+        "CH_LipidDroplet": 0,
+        "CH_Carbohydrate": 0,
+        "CH_Nucleotide": 0,
+        "CH_Redox": 0,
+        "CH_Starch": 0
+    },
+    "Chunk P Production Value": {
+        "CH_Carotenoid": 0.1,
+        "CH_Chla": 0.1,
+        "CH_Chlb": 0.1,
+        "CH_Protein": 0.1,
+        "CH_Lipid": 0.1,
+        "CH_LipidDroplet": 0.1,
+        "CH_Carbohydrate": 0.1,
+        "CH_Nucleotide": 0.1,
+        "CH_Redox": 0.1,
+        "CH_Starch": 1
+    },
+    "Chunk I Production Value": {
+        "CH_Carotenoid": 0,
+        "CH_Chla": 0.001,
+        "CH_Chlb": 0.001,
+        "CH_Protein": 0.001,
+        "CH_Lipid": 0.001,
+        "CH_LipidDroplet": 0.0,
+        "CH_Carbohydrate": 0,
+        "CH_Nucleotide": 0,
+        "CH_Redox": 0,
+        "CH_Starch": 0.002
+    },
+    "Chunk P Degredation Value": {
+        "CH_Carotenoid": 1e-05,
+        "CH_Chla": 1e-06,
+        "CH_Chlb": 1e-06,
+        "CH_Protein": 1e-05,
+        "CH_Lipid": 0.0001,
+        "CH_LipidDroplet": 0.0001,
+        "CH_Carbohydrate": 0.001,
+        "CH_Nucleotide": 1e-05,
+        "CH_Redox": 1e-06,
+        "CH_Starch": 5
+    },
+    "Chunk I Degredation Value": {
+        "CH_Carotenoid": 0,
+        "CH_Chla": 0,
+        "CH_Chlb": 0,
+        "CH_Protein": 0,
+        "CH_Lipid": 0.0,
+        "CH_LipidDroplet": 0.0,
+        "CH_Carbohydrate": 0,
+        "CH_Nucleotide": 0,
+        "CH_Redox": 0,
+        "CH_Starch": 0.01
+    },
+    "Chunk Bounds Fractions": {
+        "CH_Carotenoid": [
+            0,
+            1
+        ],
+        "CH_Chla": [
+            0,
+            1
+        ],
+        "CH_Chlb": [
+            0,
+            1
+        ],
+        "CH_Protein": [
+            0,
+            1
+        ],
+        "CH_Lipid": [
+            0,
+            1
+        ],
+        "CH_LipidDroplet": [
+            0,
+            1
+        ],
+        "CH_Carbohydrate": [
+            0,
+            1
+        ],
+        "CH_Nucleotide": [
+            0,
+            1
+        ],
+        "CH_Redox": [
+            0,
+            1
+        ],
+        "CH_Starch": [
+            0,
+            1
+        ]
+    },
+    "Chunk Plot": [
+        "CH_Carotenoid",
+        "CH_Chla",
+        "CH_Chlb",
+        "CH_Protein",
+        "CH_Lipid",
+        "CH_LipidDroplet",
+        "CH_Carbohydrate",
+        "CH_Nucleotide",
+        "CH_Redox",
+        "CH_Starch"
+    ],
+    "Chunk Color": {
+        "CH_Carotenoid": "xkcd:light blue",
+        "CH_Chla": "xkcd:navy blue",
+        "CH_Chlb": "xkcd:royal blue",
+        "CH_Protein": "xkcd:red",
+        "CH_Lipid": "xkcd:purple",
+        "CH_LipidDroplet": "xkcd:pink",
+        "CH_Carbohydrate": "xkcd:aqua",
+        "CH_Nucleotide": "xkcd:yellow",
+        "CH_Redox": "xkcd:brown",
+        "CH_Starch": "xkcd:orange"
+    }
+}
